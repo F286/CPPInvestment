@@ -92,7 +92,7 @@ void CalculateReturn(string title, float startMoney, float monthlyContributionSt
 	cout << setprecision(0);
 	
 	// Inflation adjusted returns
-	cout << endl << "Adjust inflation with final CPI of " << setprecision(2) << currentCpi << setprecision(0) << " (" << setprecision(2) << inflation * 100 << setprecision(0) << "% inflation)" << endl;
+	cout << endl << "Inflation Adjusted, relative CPI is " << setprecision(2) << currentCpi << setprecision(0) << " (" << setprecision(2) << inflation * 100 << setprecision(0) << "% inflation)" << endl;
 	
 	float cpiMoney = totalMoney / currentCpi;
 	
